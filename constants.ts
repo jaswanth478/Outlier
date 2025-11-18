@@ -1,4 +1,5 @@
-export const GEMINI_MODEL = 'gemini-3-pro-preview';
+// Use the same model that you’ve confirmed works via curl/Postman.
+export const GEMINI_MODEL = 'gemini-2.0-flash';
 
 export const SYSTEM_INSTRUCTION = `
 You are 'OutlierOS', an elite performance coach for high-potential software engineers in the AI era. 

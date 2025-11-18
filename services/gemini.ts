@@ -16,7 +16,6 @@ export const initializeChat = () => {
     model: GEMINI_MODEL,
     config: {
       systemInstruction: SYSTEM_INSTRUCTION,
-      thinkingConfig: { thinkingBudget: 2048 }, // Allow some thought for the assessment
     },
   });
 
